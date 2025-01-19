@@ -153,6 +153,17 @@
     align-items: center;
 }
 
+/* Mobile Phones */
+@media (max-width: 480px)
+{
+    .resume-template
+    {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
 /* Tablets (Portrait) */
 @media (max-width: 768px)
 {
@@ -171,17 +182,7 @@
         width: 90%;
         height: auto;
         padding: 20px;
-    }
-}
-  
-/* Mobile Phones */
-@media (max-width: 480px)
-{
-    .resume-template
-    {
-        width: 100%;
-        height: auto;
-        padding: 10px;
+        font-size: 15px;
     }
 }
   
